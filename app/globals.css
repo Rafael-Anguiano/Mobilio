@@ -10,13 +10,12 @@
 
 html {
   overflow-y: scroll;
-  scrollbar-gutter: auto;
 }
 
 html, body, #root, .App {
   width:100vw;
   height:100vh;
-  margin:0;
+  /* background: darkseagreen; */
 }
 
 body {
@@ -27,39 +26,25 @@ body {
   height:100%;
   width:100%;
 }
-.navBar {
-  padding:0.2rem;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-inline:2rem;
-}
-
-.menu-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap:1.5rem;
-}
-
-
-.menu-item {
-  color:darkgray;
-  text-decoration: none;
-}
-
-.menu-item:hover,
-.menu-item:active  {
-  color:black;
-}
 
 h1 {
-  padding-block: 0.6rem;
   font-size: 2rem;
-  font-weight: bold;
-  color: #141414;
 }
+
+.bar-one {
+  transform:rotate(45deg);
+  position:absolute;
+  width:20px;
+}
+.bar-two {
+  display:none;
+}
+.bar-three {
+  transform:rotate(135deg);
+  position:absolute;
+  width:20px;
+}
+
 
 section {
   display: flex;
@@ -191,7 +176,6 @@ input:focus {
   width: 140px;
   height: 140px;
   object-fit: cover;
-  aspect-ratio: 1/1;
   padding-bottom: 1rem;
 }
 
