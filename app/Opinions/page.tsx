@@ -3,7 +3,7 @@ import Image from "next/image";
 const Page: React.FC = () => {
     return <section id="Opinions">
         <h2 className="subtitle">Opiniones de nuestros clientes</h2>
-        <div className="cards">
+        <div className="cards sm:flex-col md:flex-row">
             <div className="person-card">
                 <Image className="person-image" src="/images/2.jpg" alt="Foto de cliente" width={100} height={100} />
                 <text className="person-name">Lucia D.</text>
