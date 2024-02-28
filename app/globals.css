@@ -1,6 +1,6 @@
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   scrollbar-width: thin;
@@ -52,6 +52,13 @@ body {
 .menu-item:hover,
 .menu-item:active  {
   color:black;
+}
+
+h1 {
+  padding-block: 0.6rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #141414;
 }
 
 section {
@@ -165,7 +172,7 @@ input:focus {
 
 .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   gap: 1.5rem;
