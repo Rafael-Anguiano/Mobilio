@@ -15,7 +15,6 @@ html {
 html, body, #root, .App {
   width:100vw;
   height:100vh;
-  /* background: darkseagreen; */
 }
 
 body {
@@ -29,6 +28,7 @@ body {
 
 h1 {
   font-size: 2rem;
+  color:#4b6180
 }
 
 .bar-one {
@@ -73,7 +73,7 @@ p {
 button {
   padding-block:1rem;
   padding-inline: 2rem;
-  background:gray;
+  background:#374151;
   border: none;
   color:white;
   font-weight: bold;
@@ -84,61 +84,6 @@ button {
   text-decoration: none;
   color:inherit;
 }
-
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:1.5rem;
-  padding:2rem;
-  text-align: center;
-  width:100%;
-  max-width: 60vw;
-}
-
-.form-field {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width:100%;
-  gap:0.5rem;
-}
-
-.form-field label {
-  font-weight: 300;
-  color: #757575;
-  width: 100%;
-  text-align: left;
-  padding-inline:0.5rem;
-  font-size: 0.9rem;
-}
-
-.form-field input {
-  padding-block:0.5rem;
-  margin-inline:0.5rem;
-  border: none;
-  border-bottom: 1.2px solid #757575;
-  width:100%;
-}
-.two-columns {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width:100%;
-  gap:1.5rem;
-}
-
-input:focus {
-  outline: none;
-  border-bottom: 1px solid #141414;
-}
-
-.form-field button {
-  width:100%;
-}
-
 
 #Opinions {
   padding-bottom:20vh

@@ -1,15 +1,18 @@
 'use client'
 import Link from "next/link"
+import { M_PLUS_Code_Latin } from "next/font/google";
 import { useState } from "react";
+
 
 interface Option {
   name: string;
   isSelected: boolean;
   url: string;
 }
+const mPlusCodeLatin = M_PLUS_Code_Latin({ subsets: ["latin"] });
 
 const NavigationBar = () => {
-
+  
   const [options, setOptions] = useState<Option[]>([
     { name: 'Sobre Nosotros', isSelected: false, url:'/AboutUs' },
     { name: 'Galería', isSelected: false, url:'/Galery' },
@@ -33,7 +36,7 @@ const NavigationBar = () => {
 
   return (
   <nav className='flex justify-between px-8 pt-1'>
-        <Link href="/" className="py-3 font-bold text-stone-950"><h1>Mobilio</h1></Link>
+        <Link href="/" className="py-3 font-bold text-stone-950"><h1 className={mPlusCodeLatin.className + " font-light"}>Mobilio</h1></Link>
         <div className="flex flex-row justify-around items-center gap-6 shrink whitespace-nowrap">
             { options.map((option, index) => (
               <Link 
