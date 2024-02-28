@@ -59,6 +59,7 @@ section {
 
 .subtitle {
   font-size: 2.5rem;
+  padding-bottom: 2rem;
   font-weight: bold;
   color: #141414;
 }
@@ -139,40 +140,8 @@ input:focus {
 }
 
 
-.cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1.5rem;
-}
-
-.person-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width:25rem;
-}
-
-.person-image {
-  border-radius: 100%;
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  padding-bottom: 1rem;
-}
-
-.person-name {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #141414;
-}
-
-.opinion {
-  font-weight: 300;
-  color: #757575;
-  padding-inline:3rem;
+#Opinions {
+  padding-bottom:20vh
 }
 
 #Contact {
