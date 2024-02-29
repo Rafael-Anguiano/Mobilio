@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mobilio',
     description: 'Mobilio - Muebles a tu medida',
-    images: ['/images/logo.jpg'],
   },
 
 };
