@@ -12,7 +12,7 @@ const Page = () => {
                 </div>
                 <div className="flex flex-col justify-start items-start w-full">
                     <label className="text-gray-500 font-light w-full text-start">Teléfono</label>
-                    <input placeholder="50 1111-9999" type="tel" className="w-full p-2 focus:outline-none border-b-2 focus:border-black " pattern="[0-9]{2} [0-9]{4}-[0-9]{4}" required />
+                    <input placeholder="3311119999" type="tel" className="w-full p-2 focus:outline-none border-b-2 focus:border-black " pattern="[0-9]{10}" required />
                 </div>
             </div>
             <div className="flex flex-col justify-start items-start w-full">
