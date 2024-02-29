@@ -3,7 +3,6 @@ import Link from "next/link"
 import { M_PLUS_Code_Latin } from "next/font/google";
 import { useState } from "react";
 
-
 interface Option {
   name: string;
   isSelected: boolean;
