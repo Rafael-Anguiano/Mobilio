@@ -34,7 +34,7 @@ const Page = () => {
                 <label className="text-gray-500 font-light w-full text-start">Mensaje</label>
                 <input placeholder="Me gustaría cotizar y revisar opciones" type="text" className="w-full p-2 focus:outline-none border-b-2 focus:border-black " required/>
             </div>
-            <button type="submit" className="bg-gray-700 mt-8">Enviar</button>
+            <button type="submit" className="button bg-gray-700 mt-8">Enviar</button>
         </form>
     </section>
 }

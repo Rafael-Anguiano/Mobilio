@@ -1,5 +1,6 @@
 import { Open_Sans } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 
@@ -8,7 +9,7 @@ const Page: React.FC = () => {
         <Image src="/images/principal.jpg" alt="Principal Image" width={3440} height={1440} unoptimized={true} priority className=" w-[98vw] h-[88vh] grayscale object-cover"/>
         <div className="text-white absolute t-[50%] text-center flex flex-col justify-center items-center">
             <h2 className={ openSans.className + " font-bold text-5xl md:text-7xl p-8"}>Mobilio</h2>
-            <button className="block p-3 sm:px-8 sm:p-4 ">Más información</button>
+            <Link href="/Contact" className="button block p-3 sm:px-8 sm:p-4 ">Contáctanos</Link>
         </div>
     </section>
 };

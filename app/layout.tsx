@@ -8,9 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Mobilio",
   description: "Mobilio - Muebles a tu medida",
+  metadataBase: new URL('https://mobilio.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
-    title: 'Mobilio',
-    description: 'Mobilio - Muebles a tu medida',
+    images: './images/opengraph-image.jpg',
   },
 
 };

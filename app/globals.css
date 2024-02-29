@@ -70,7 +70,7 @@ p {
   color: #757575;
 }
 
-button {
+.button {
   padding-block:1rem;
   padding-inline: 2rem;
   background:#374151;

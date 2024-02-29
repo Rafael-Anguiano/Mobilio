@@ -8,7 +8,7 @@ const Page = () => {
             <p>Además de ampliar tus opciones para eventos, fiestas y reuniones!</p>
             <p>Tenemos casi 2 décadas en el negocio, pero ahora queremos expandirnos y brindar nuestro servicio a todo México.</p>
         </div>
-        <button>Más información</button>
+        <Link href="/Contact" className="button">Contáctanos</Link>
     </section>
 }
 
