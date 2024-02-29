@@ -8,6 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Mobilio",
   description: "Mobilio - Muebles a tu medida",
+  openGraph: {
+    title: 'Mobilio',
+    description: 'Mobilio - Muebles a tu medida',
+    images: ['/images/logo.jpg'],
+  },
+
 };
 
 export default function RootLayout({
