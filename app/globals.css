@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 * {
-  scrollbar-width: thin;
-  scrollbar-color: #141414 #f5f5f5;
-  scroll-behavior: smooth;
+  /* hide scrollbar */
+  scrollbar-width: none;
 }
 
 html {
@@ -24,6 +23,7 @@ body {
 .App {
   height:100%;
   width:100%;
+  background-color: white;
 }
 
 h1 {
